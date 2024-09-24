@@ -1,0 +1,10 @@
+
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:userdb
+  sql:
+    init:
+      mode: always  # Always initialize the database
+      schema-locations: classpath:org/springframework/security/core/userdetails/jdbc/users.ddl
+

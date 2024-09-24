@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: springboot-oauth-security
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 
+            client-secret: 
